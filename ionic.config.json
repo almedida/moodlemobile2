@@ -1,10 +1,16 @@
 {
-  "name": "moodlemobile2",
+  "name": "absmobile",
   "app_id": "",
   "watchPatterns": [
     "www/**/*.html",
     "www/build/**/*",
     "www/index.html",
-    "!www/lib/**/*"
-  ]
+    "!www/lib/**/*",
+    "scss/**/*"
+  ],
+  "type": "ionic1",
+  "integrations": {
+    "gulp": {},
+    "cordova": {}
+  }
 }
